@@ -1,2 +1,2 @@
 alert: prompt
-alert("Hallo Student!");
+alert("De links werkt!");
