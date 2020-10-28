@@ -6,16 +6,31 @@
     <title>Flexbox container</title>
 
     <style>
-       
+        .container{
+            width: 100%;
+            background-color: orange;
+            display: flex;
+            border: violet;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+        .menu-item{
+            display: flex;
+            padding: 0px;
+            color:green;
+        }
+        #links{
+            color: yellow;
+        }
     </style>
 </head>
 <body>
    <nav>
        <ul class="container">
-           <li class="menu-item"><a href="#">Home</a></li>
-           <li class="menu-item"><a href="#">Over mij</a></li>
-           <li class="menu-item"><a href="#">Vaardigheden</a></li>
-           <li class="menu-item"><a href="#">Hobby's</a></li>
+           <li class="menu-item"><a id="links" href="#">Home</a></li>
+           <li class="menu-item"><a id="links" href="#">Over mij</a></li>
+           <li class="menu-item"><a id="links" href="#">Vaardigheden</a></li>
+           <li class="menu-item"><a id="links" href="#">Hobby's</a></li>
        </ul>
    </nav>
 </body>
