@@ -1,0 +1,3 @@
+console.log
+Boolean(true > false)  // returns true
+Boolean(false < true)  // returns false
