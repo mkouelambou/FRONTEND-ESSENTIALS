@@ -5,4 +5,4 @@ console.log("Student");
     leeftijd = "17",
     geslacht = "Man",
 }
-console.log(~Hallo Ik Ben ${student.voornaam} ${student.achternaam});
+console.log(`Hallo Ik Ben ${student.voornaam}${student.achternaam}`);
