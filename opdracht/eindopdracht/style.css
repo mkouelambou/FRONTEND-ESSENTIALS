@@ -1,11 +1,10 @@
 
 .container{
-    display: flex;
-    
+    display: flex;   
 }
 
-.col{
-    margin: 2px;
+body{
+    background-color: purple;
 }
 
 .Menu{
@@ -15,12 +14,5 @@
     margin: 2px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-}
-
-.button span{
-    
-    font-size: 2em;
-    font-family: consolas;
+    align-items: center;   
 }
