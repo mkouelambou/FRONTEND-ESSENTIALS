@@ -5,6 +5,3 @@ let bezoeker = {
     email : prompt("Wat is je email?"),
     woonplaats : prompt("Wat is je woonplaats?")
 };
-console.log(persoon);
-
-let bezoeker
