@@ -4,31 +4,58 @@
 }
 
 #container{
-    width: 900px;
-    height: 600px;
-    background-color: blanchedalmond;
+    width: 600px;
+    height: 500px;
+    background-color: white;
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
-#bovenkant{
-    width: 900px;
-    height: 600px;
-    background-color: lightblue;
-    border-bottom:20px solid white;
+#boven{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 50%;
+    background-color: white;
 }
 
+#linksboven{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 35%;
+  height: 80%;
+  background-color: red;
+}
 #rechtsboven{
-    width: 100%;
-    height: 60px;
-    background-color: black;
-    justify-content: center;
-}
-#onderkant{
-    width: 100%;
-    height: 250px; 
-    background-color: lightblue;
-    border-top: 20px solid white;
-}
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 
+  width: 55%;
+  height: 80%;
+  background-color: red;
+}
+#onder{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+}
+     
+#linksonder{
+    display: inline-block;
+    width: 35%;
+    height: 50%;
+    background-color: red;
+}
+#rechtsonder{
+    display: inline-block;
+    width: 55%;
+    height: 50%; 
+background-color: red;
+}
