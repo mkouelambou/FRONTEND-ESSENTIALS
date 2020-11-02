@@ -4,30 +4,26 @@
 }
 
 #container{
+    height: 500px;
     width: 900px;
-    height: 600px;
     background-color: blanchedalmond;
     border: 1px solid black;
 }
 
 /* Hieronder kun je gaan editen */
 
-#bovenkant{
-    width:  900px;
-    height: 0px; 
-    display: inline-block;
-}
 
-#rechtsboven{
-    width: 700px;
-    height: 250px;
-    background-color: white;
-    float: right;
-}
 #linksboven{
-    width: 500px;
     height: 250px; 
+    width:250px;
     background-color: blue;
+    display:inline-block;
+}
+#rechtsboven{
+    height: 250px;
+    width: 650px;
+    background-color: white;
+    display:inline-block;
 }
 #onderkant{
     height: 250px;
